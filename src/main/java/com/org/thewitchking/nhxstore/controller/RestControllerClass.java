@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(name="/nhxstore")
+@RequestMapping("/nhxstore")
 public class RestControllerClass {
 
-	@GetMapping(name="/get")
+	@GetMapping("/get")
 	public String get() {
 		return "hello";
 	}
